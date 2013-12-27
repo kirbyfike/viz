@@ -1,0 +1,406 @@
+/* line 1, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.q0 {
+  fill: #f5b7b1;
+}
+
+/* line 2, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.q1 {
+  fill: #f1948a;
+}
+
+/* line 3, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.q2 {
+  fill: #ec7063;
+}
+
+/* line 4, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.q3 {
+  fill: #e74c3c;
+}
+
+/* line 5, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.q4 {
+  fill: #dddddd;
+}
+
+/* line 7, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.tooltip {
+  color: #222;
+  background: #fff;
+  padding: .5em;
+  text-shadow: #f5f5f5 0 1px 0;
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px 0px #a6a6a6;
+  opacity: 0.9;
+  position: absolute;
+  display: none;
+  border: 1px solid black;
+}
+
+/* line 20, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+/* line 32, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.btn.btn_1 {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+/* line 36, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.container-fluid {
+  margin: 0px auto;
+}
+
+/* line 41, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+select.filter {
+  margin-left: 9px;
+  font-size: 13px;
+  background-color: #34495e;
+  color: white;
+  width: 281px;
+  font-weight: bold;
+  border-radius: 0px;
+  margin-top: 10px;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+  padding-left: 8px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 62, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.btn {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+/* line 66, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#dashboard #delinquent_120_days_rate {
+  border: 0px;
+}
+
+/* line 70, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#rate120 {
+  border-right: 0px;
+}
+
+/* line 74, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.legend path {
+  display: none;
+}
+
+/* line 78, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* line 83, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+h2 {
+  text-align: center;
+  font-size: 14px;
+  margin-top: -24px;
+}
+
+/* line 89, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#content {
+  margin-top: 0px;
+}
+
+/* line 93, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.legend line {
+  stroke: #FFF;
+  shape-rendering: crispEdges;
+}
+
+/* line 98, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.legend text {
+  color: #666;
+  font-size: 10px;
+}
+
+/* line 103, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.legend text:after {
+  content: "%";
+}
+
+/* line 109, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+/* line 115, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.counties {
+  fill: none;
+}
+
+/* line 118, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+/* line 124, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+body {
+  font-family: arial;
+}
+
+/* line 126, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.map {
+  font-size: 20pt;
+  text-align: center;
+}
+
+/* line 131, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#map-selections {
+  margin-top: 20px;
+}
+
+/* line 135, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#dashboard {
+  padding-top: 5px;
+}
+/* line 138, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#dashboard .btn {
+  margin-right: -5px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+  border-right: 2px solid #243649;
+  background-color: #34495e;
+  padding: 4px 10px;
+}
+/* line 149, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#dashboard .btn.btn-primary {
+  background-color: #34495e;
+  padding: 4px 10px;
+}
+/* line 154, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#dashboard .btn.btn-primary:hover {
+  background-color: #8BAED4;
+}
+/* line 158, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#dashboard .btn.btn-primary.selected {
+  background-color: #8BAED4;
+}
+
+/* line 163, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.us-tooltip {
+  color: #222;
+  background: #fff;
+  padding: .5em;
+  text-shadow: #f5f5f5 0 1px 0;
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px 0px #a6a6a6;
+  opacity: 0.9;
+  position: absolute;
+  display: none;
+}
+
+/* line 175, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+svg {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+/* line 180, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#map-details {
+  background-color: gainsboro;
+  padding: 10px;
+  font-size: 11px;
+  margin-left: 0px;
+  width: 321px;
+  height: 464px;
+}
+
+/* line 189, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#map-container {
+  border: 20px solid #eaeaea;
+  width: 600px;
+}
+
+/* line 194, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#details-table {
+  position: absolute;
+  height: 335px;
+  top: 100px;
+  left: 100px;
+}
+
+/* line 201, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#details {
+  clear: both;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  text-align: left;
+  position: relative;
+  top: 7px;
+}
+
+/* line 213, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#tooltip {
+  position: absolute;
+  width: 140px;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+/* line 228, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#tooltip.hidden {
+  display: none;
+}
+
+/* line 232, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#tooltip p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* line 239, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.description {
+  display: none;
+}
+
+/* line 243, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#us_map_table {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 24px;
+}
+
+/* line 250, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.table {
+  margin-bottom: 4px;
+}
+
+/* line 254, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.table td {
+  text-align: center;
+}
+
+/* line 258, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.table th, .table td {
+  padding: 3px;
+  text-align: center;
+}
+
+/* line 263, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+.table thead tr th {
+  font-size: 10px;
+  line-height: 14px;
+}
+
+/* line 268, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+table.dataTable thead th {
+  cursor: pointer;
+  padding-right: 12px !important;
+  background-position: 25px 46px !important;
+}
+
+/* line 274, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+table.dataTable thead th.sorting_desc {
+  background-position: 25px 39px !important;
+}
+
+/* line 278, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+table.dataTable thead th#performing_loan_count.sorting_asc {
+  background-position: 57px 46px !important;
+}
+
+/* line 282, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+table.dataTable thead th#delinquent_days_rate.sorting_asc {
+  background-position: 43px 46px !important;
+}
+
+/* line 286, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+table.dataTable thead th#delinquent_days_count.sorting_asc {
+  background-position: 43px 46px !important;
+}
+
+/* line 290, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+table.dataTable thead th#performing_loan_count.sorting_desc {
+  background-position: 57px 39px !important;
+}
+
+/* line 294, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+table.dataTable thead th#delinquent_days_rate.sorting_desc {
+  background-position: 43px 39px !important;
+}
+
+/* line 298, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+table.dataTable thead th#delinquent_days_count.sorting_desc {
+  background-position: 43px 39px !important;
+}
+
+/* line 302, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+dl {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 307, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+dt, dd {
+  line-height: 24px;
+}
+
+/* line 311, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+dt {
+  float: left;
+  width: 50%;
+  margin-left: 0px;
+}
+
+/* line 317, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+dd {
+  float: left;
+  width: 30%;
+  margin-left: 0px;
+}
+
+/* line 323, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+path {
+  cursor: pointer;
+}
+
+/* line 327, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#states-table tr {
+  cursor: pointer;
+}
+
+/* line 331, ../../../../../../app/assets/stylesheets/delinquency_data_visualization/maps/maps.css.scss */
+#circle {
+  border: 10px solid #34495e;
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  display: none;
+  position: absolute;
+}
